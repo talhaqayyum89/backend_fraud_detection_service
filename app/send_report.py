@@ -2,8 +2,8 @@ from config import config
 from office365.runtime.auth.user_credential import UserCredential
 from office365.sharepoint.client_context import ClientContext
 
+
 def get_sharepoint_context_using_user():
- 
     # Get sharepoint credentials
     sharepoint_url = config.sharepoint_url
     user_name = config.user_name
@@ -19,8 +19,7 @@ def get_sharepoint_context_using_user():
 
 
 def upload_to_sharepoint(file_name):
-
-    sp_url = config.sp_url 
+    sp_url = config.sp_url
     print(sp_url)
     ctx = get_sharepoint_context_using_user()
 
