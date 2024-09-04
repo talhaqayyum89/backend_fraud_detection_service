@@ -2,7 +2,7 @@
 .coverage
 htmlcov/*
 data/*
-config/config.py
+config/*
 env/*
 venv/*
 .idea/*
